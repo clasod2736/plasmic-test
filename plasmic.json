@@ -29,6 +29,19 @@
       "cssFilePath": "plasmic/website_starter/plasmic.module.css",
       "components": [
         {
+          "id": "C_sEWVkk_EYm",
+          "name": "Testing",
+          "type": "managed",
+          "projectId": "vBsVqVGsbPzrsr6Y8KCSeP",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicTesting.tsx",
+          "importSpec": {
+            "modulePath": "Testing.tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicTesting.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
           "id": "8BYr7N8JzOqj",
           "name": "Homepage",
           "type": "managed",
@@ -41,19 +54,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
-        },
-        {
-          "id": "C_sEWVkk_EYm",
-          "name": "Testing",
-          "type": "managed",
-          "projectId": "vBsVqVGsbPzrsr6Y8KCSeP",
-          "renderModuleFilePath": "plasmic/website_starter/PlasmicTesting.tsx",
-          "importSpec": {
-            "modulePath": "Testing.tsx"
-          },
-          "cssFilePath": "plasmic/website_starter/PlasmicTesting.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
         }
       ],
       "icons": [],
