@@ -1,0 +1,29 @@
+{
+  "props": [
+    {
+      "name": "Unnamed Style Token",
+      "type": "fontfamily",
+      "value": "Righteous",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "vBsVqVGsbPzrsr6Y8KCSeP",
+        "id": "-HFIiPV1G7YF"
+      }
+    },
+    {
+      "name": "Unnamed Style Token 2",
+      "type": "opacity",
+      "value": "1",
+      "category": "opacity",
+      "meta": {
+        "projectId": "vBsVqVGsbPzrsr6Y8KCSeP",
+        "id": "3Y6B6QOUEemK"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
