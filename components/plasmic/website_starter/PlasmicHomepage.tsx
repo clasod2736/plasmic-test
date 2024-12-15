@@ -79,7 +79,6 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  section?: Flex__<"section">;
   h1?: Flex__<"h1">;
   text?: Flex__<"div">;
 };
@@ -149,11 +148,7 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <section
-            data-plasmic-name={"section"}
-            data-plasmic-override={overrides.section}
-            className={classNames(projectcss.all, sty.section)}
-          >
+          <section className={classNames(projectcss.all, sty.section___6DsIy)}>
             <h1
               data-plasmic-name={"h1"}
               data-plasmic-override={overrides.h1}
@@ -195,6 +190,7 @@ function PlasmicHomepage__RenderFunc(props: {
               </React.Fragment>
             </div>
           </section>
+          <section className={classNames(projectcss.all, sty.section__rz8Qs)} />
         </div>
       </div>
     </React.Fragment>
@@ -202,8 +198,7 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "h1", "text"],
-  section: ["section", "h1", "text"],
+  root: ["root", "h1", "text"],
   h1: ["h1"],
   text: ["text"]
 } as const;
@@ -212,7 +207,6 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  section: "section";
   h1: "h1";
   text: "div";
 };
@@ -277,7 +271,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    section: makeNodeComponent("section"),
     h1: makeNodeComponent("h1"),
     text: makeNodeComponent("text"),
 
